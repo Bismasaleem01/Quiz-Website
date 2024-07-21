@@ -1,0 +1,77 @@
+::selection{
+    background-color: purple;
+    color: white;
+}
+body{
+    font-family: verdana;
+    background-image: url("./image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+}
+#quiz-logo{
+    margin-left: 20px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+#heading1{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 430px;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+}
+.line{
+    color: white;
+}
+button{
+    font-size: 20px;
+    font-weight: bolder;
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
+}
+button:hover{
+    background-color: rgb(225, 225, 225);
+    color: purple;
+}
+nav{
+    background-color: purple;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+}
+.a{
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: flex;
+    border-radius: 25px;
+}
+.aa{
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: flex;
+    border-radius: 25px;
+}
+a:hover{
+    background-color: rgb(225, 225, 225);
+    color: purple;
+}
+.a{
+    margin-left:780px;
+}

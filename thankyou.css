@@ -1,0 +1,60 @@
+body{
+    font-family: verdana;
+    background-image: url("./image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+::selection{
+    background-color: purple;
+    color: white;
+}
+nav{
+    background-color: purple;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+}
+#thankyou-heading{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-left: 540px;
+    color: white;
+    display: flex;
+    border-radius: 25px;
+}
+#heading{
+    font-size: 60px;
+    color: white;
+    margin-top: 100px;
+}
+#score{
+    margin-top: -20px;
+    color: white;
+    font-size: 40px;
+}
+#div{
+    background-color: purple;
+    display: inline-block;
+    border: 1px solid purple;
+}
+#score5{
+    color: white;
+    font-size: 30px;
+}
+#backbutton{
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    border: none;
+    color: purple;
+    background-color: white;
+}
+#backbutton:hover{
+    color: white;
+    background-color: purple;
+}

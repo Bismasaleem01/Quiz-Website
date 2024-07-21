@@ -1,0 +1,79 @@
+body{
+    font-family: verdana;
+    background-image: url("./image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+}
+::selection{
+    background-color: purple;
+    color: white;
+}
+nav{
+    background-color: purple;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+}
+#headingquiz{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 8px;
+    margin-left: 570px;
+    color: white;
+    display: flex;
+    border-radius: 25px;
+}
+#headingquiz:hover{
+    background-color: white;
+    color: purple;
+}
+#headingselect{
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: white;
+}
+#html-image{
+    background-color: white;
+    border: 5px solid purple;
+ 
+    margin-left: 5px;
+}
+#css-image{
+    background-color: white;
+    margin-left: 40px;
+    border: 5px solid purple;
+
+}
+#js-image{
+    margin-left: 40px;
+    border: 5px solid purple;
+    background-color: white;
+    height: 240px;
+}
+#html-heading{
+    display: inline-block;
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+#css-heading{
+    display: inline-block;
+    margin-left: 190px;
+    color: white;
+    font-size: 30px;
+}
+#js-heading{
+    display: inline-block;
+
+    margin-left: 150px;
+    color: white;
+    font-size: 30px;
+}
